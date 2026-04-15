@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 
 export default function OurWorkPage() {
@@ -22,11 +22,12 @@ export default function OurWorkPage() {
         headingFontWeight="semibold"
     >
       <ReactLenis root>
-        <div id="nav">
+        <div id="nav" data-section="nav">
           <NavbarStyleApple
             navItems={[
               { name: "Home", id: "/" },
-              { name: "Our Work", id: "#work" },
+              { name: "Our Work", id: "/our-work" },
+              { name: "About", id: "/about" },
               { name: "Services", id: "/services" },
               { name: "Contact", id: "/contact" },
             ]}
@@ -34,13 +35,14 @@ export default function OurWorkPage() {
           />
         </div>
 
-        <div id="work" className="py-24">
+        <div id="work" data-section="work" className="py-24">
           <ProductCardFour
             title="Our Transformation Gallery"
             description="Real results from our professional cleaning services. See the difference we make."
             gridVariant="four-items-2x2-equal-grid"
             animationType="slide-up"
             textboxLayout="split"
+            useInvertedBackground={false}
             products={[
               { id: "w1", name: "Sofa Restoration", price: "Deep Clean", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
               { id: "w2", name: "Carpet Refresh", price: "Stain Removal", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
@@ -50,23 +52,22 @@ export default function OurWorkPage() {
           />
         </div>
 
-        <div id="contact">
+        <div id="contact" data-section="contact">
           <ContactCenter
             tag="Get Your Quote"
             title="Ready for a Cleaner Home?"
             description="Book your professional cleaning today."
-            buttonText="Get Free Estimate"
+            useInvertedBackground={false}
           />
         </div>
 
-        <div id="footer">
-          <FooterMedia
-            logoText="Frankfurt Sofa & Carpet"
+        <div id="footer" data-section="footer">
+          <FooterSimple
             columns={[
               { title: "Direct Support", items: [{ label: "Call: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }] },
               { title: "Quick Links", items: [{ label: "Home", href: "/" }, { label: "Our Work", href: "/our-work" }, { label: "Services", href: "/services" }, { label: "Book Now", href: "/contact" }] },
             ]}
-            copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
+            bottomLeftText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
           />
         </div>
       </ReactLenis>
