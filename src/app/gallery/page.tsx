@@ -40,8 +40,8 @@ export default function GalleryPage() {
             animationType="slide-up"
             useInvertedBackground={false}
             products={[
-                { id: "g1", name: "Restored Leather Sofa", price: "Deep Clean", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
-                { id: "g2", name: "Office Carpet Refresh", price: "Stain Treatment", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
+                { id: "g1", name: "Restored Leather Sofa", price: "Deep Clean", variant: "Featured", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
+                { id: "g2", name: "Office Carpet Refresh", price: "Stain Treatment", variant: "Standard", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
             ]}
             textboxLayout="default"
           />
