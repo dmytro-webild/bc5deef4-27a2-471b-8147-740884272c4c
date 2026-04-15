@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import { UserCheck } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -38,7 +37,6 @@ export default function AboutPage() {
         <div id="about" data-section="about">
           <InlineImageSplitTextAbout
             heading={[{ type: 'text', content: "Your Local Cleaning Expert" }]}
-            description="At Frankfurt Sofa & Carpet, we take pride in our personalized, owner-operated approach. Our mission is simple: provide top-tier cleaning services with a level of attention to detail that only a locally-owned business can offer."
             useInvertedBackground={false}
             className="py-24"
           />
@@ -51,6 +49,7 @@ export default function AboutPage() {
               { title: "Quick Links", items: [{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Our Services", href: "/services" }, { label: "Book Now", href: "/contact" }] },
             ]}
             bottomLeftText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
+            bottomRightText=""
           />
         </div>
       </ReactLenis>
