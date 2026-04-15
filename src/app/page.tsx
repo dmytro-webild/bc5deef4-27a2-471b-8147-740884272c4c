@@ -7,8 +7,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
-import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
+import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import { Sparkles } from "lucide-react";
 
 export default function LandingPage() {
@@ -32,7 +31,6 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "Our Work", id: "/our-work" },
         { name: "Services", id: "services" },
-        { name: "Why Us", id: "why-us" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="Frankfurt Sofa & Carpet"
@@ -57,6 +55,22 @@ export default function LandingPage() {
       rating={5}
       ratingText="Rated 5/5 by local residents"
       tagIcon={Sparkles}
+    />
+  </div>
+
+  <div id="preview" data-section="preview">
+      <ProductCardFour
+      title="Recent Cleaning Projects"
+      description="A quick look at the transformative results we deliver for carpets and upholstery in West Chester."
+      useInvertedBackground={false}
+      animationType="slide-up"
+      gridVariant="four-items-2x2-equal-grid"
+      products={[
+        { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
+        { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
+      ]}
+      buttons={[{ text: "View More Work", href: "/our-work" }]}
+      textboxLayout="split-actions"
     />
   </div>
 
