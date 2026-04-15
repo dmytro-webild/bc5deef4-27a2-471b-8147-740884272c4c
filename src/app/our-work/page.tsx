@@ -53,10 +53,10 @@ export default function OurWorkPage() {
 
         <div id="contact" data-section="contact">
           <ContactCenter
-            tag="Contact"
-            title="Need Your Furniture Restored?"
-            description="Contact us for a professional assessment and quote."
-            buttonText="Get Quote"
+            tag="Quote Request"
+            title="Get a Quote in Minutes"
+            description="Ready for a transformation? Get in touch today for a professional estimate."
+            buttonText="Send Request"
             useInvertedBackground={true}
             background={{ variant: "plain" }}
           />

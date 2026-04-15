@@ -27,8 +27,8 @@ export default function BeforeAfterPage() {
               { name: "Home", id: "/" },
               { name: "Our Work", id: "/our-work" },
               { name: "Before & After", id: "/before-after" },
-              { name: "Services", id: "/#services" },
-              { name: "Contact", id: "/#contact" },
+              { name: "Services", id: "/services" },
+              { name: "Contact", id: "/contact" },
             ]}
             brandName="Frankfurt Sofa & Carpet"
           />
