@@ -22,54 +22,51 @@ export default function OurWorkPage() {
         headingFontWeight="semibold"
     >
       <ReactLenis root>
-        <div id="nav" data-section="nav">
+        <div id="nav">
           <NavbarStyleApple
             navItems={[
               { name: "Home", id: "/" },
-              { name: "Our Work", id: "/our-work" },
+              { name: "Our Work", id: "#work" },
               { name: "Services", id: "/services" },
               { name: "Contact", id: "/contact" },
             ]}
             brandName="Frankfurt Sofa & Carpet"
           />
         </div>
-        
-        <div id="preview" data-section="preview">
+
+        <div id="work" className="py-24">
           <ProductCardFour
+            title="Our Transformation Gallery"
+            description="Real results from our professional cleaning services. See the difference we make."
+            gridVariant="four-items-2x2-equal-grid"
             animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="uniform-all-items-equal"
-            useInvertedBackground={false}
-            title="Our Cleaning Results"
-            description="Witness the transformative power of our professional cleaning services. From sofas to stairs, we restore quality."
+            textboxLayout="split"
             products={[
-              { id: "w1", name: "Sofa Transformation", price: "Deep Clean", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259157995-3f6df573.png?_wi=1" },
-              { id: "w2", name: "Carpet Restoration", price: "Full Removal", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=1" },
-              { id: "w3", name: "Mattress Sanitization", price: "Hygiene Boost", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=1" },
-              { id: "w4", name: "Staircase Renewal", price: "Deep Clean", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=1" }
+              { id: "w1", name: "Sofa Restoration", price: "Deep Clean", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
+              { id: "w2", name: "Carpet Refresh", price: "Stain Removal", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
+              { id: "w3", name: "Upholstery Care", price: "Sanitization", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259227384-1001dc80.png" },
+              { id: "w4", name: "Mattress Renewal", price: "Deep Clean", variant: "Before/After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png" }
             ]}
           />
         </div>
 
-        <div id="contact" data-section="contact">
+        <div id="contact">
           <ContactCenter
-            tag="Quote Request"
-            title="Get a Quote in Minutes"
-            description="Ready for a transformation? Get in touch today for a professional estimate."
-            buttonText="Send Request"
-            useInvertedBackground={true}
-            background={{ variant: "plain" }}
+            tag="Get Your Quote"
+            title="Ready for a Cleaner Home?"
+            description="Book your professional cleaning today."
+            buttonText="Get Free Estimate"
           />
         </div>
 
-        <div id="footer" data-section="footer">
+        <div id="footer">
           <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=1"
-            logoText="Frankfurt Sofa & Carpet Cleaning"
+            logoText="Frankfurt Sofa & Carpet"
             columns={[
-              { title: "Contact Us", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }] },
-              { title: "Navigation", items: [{ label: "Our Work", href: "/our-work" }, { label: "Contact", href: "/contact" }] },
+              { title: "Direct Support", items: [{ label: "Call: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }] },
+              { title: "Quick Links", items: [{ label: "Home", href: "/" }, { label: "Our Work", href: "/our-work" }, { label: "Services", href: "/services" }, { label: "Book Now", href: "/contact" }] },
             ]}
+            copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
           />
         </div>
       </ReactLenis>
