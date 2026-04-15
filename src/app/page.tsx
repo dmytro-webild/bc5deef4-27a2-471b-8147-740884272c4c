@@ -30,6 +30,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "hero" },
         { name: "Our Work", id: "/our-work" },
+        { name: "Before & After", id: "/before-after" },
         { name: "Services", id: "services" },
         { name: "Contact", id: "contact" },
       ]}
@@ -69,7 +70,7 @@ export default function LandingPage() {
         { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
         { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
       ]}
-      buttons={[{ text: "View More Work", href: "/our-work" }]}
+      buttons={[{ text: "View More Work", href: "/our-work" }, { text: "See Full Gallery", href: "/before-after" }]}
       textboxLayout="split-actions"
     />
   </div>
@@ -108,7 +109,7 @@ export default function LandingPage() {
       logoText="Frankfurt Sofa & Carpet Cleaning"
       columns={[
         { title: "Contact Us", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }] },
-        { title: "Navigation", items: [{ label: "Our Work", href: "/our-work" }, { label: "Contact", href: "#contact" }] },
+        { title: "Navigation", items: [{ label: "Our Work", href: "/our-work" }, { label: "Before & After", href: "/before-after" }, { label: "Contact", href: "#contact" }] },
       ]}
     />
   </div>
