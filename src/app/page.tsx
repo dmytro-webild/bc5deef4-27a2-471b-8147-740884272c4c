@@ -80,15 +80,15 @@ export default function LandingPage() {
           imageAlt: "Sofa cleaning technician working",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259258967-23895b9e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259258967-23895b9e.png?_wi=1",
           imageAlt: "Deep cleaning equipment in action",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259248839-27a49415.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259248839-27a49415.png?_wi=1",
           imageAlt: "Rug cleaning result",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259269594-ac6c49db.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259269594-ac6c49db.png?_wi=1",
           imageAlt: "Carpet rejuvenation process",
         },
       ]}
@@ -128,19 +128,19 @@ export default function LandingPage() {
           id: "p4",
           name: "Pet Stain & Odor Removal",
           price: "Guaranteed",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259248839-27a49415.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259248839-27a49415.png?_wi=2",
         },
         {
           id: "p5",
           name: "Eco-Friendly Deep Cleaning",
           price: "Safe & Green",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259258967-23895b9e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259258967-23895b9e.png?_wi=2",
         },
         {
           id: "p6",
           name: "Furniture Restoration",
           price: "Revive Beauty",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259269594-ac6c49db.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259269594-ac6c49db.png?_wi=2",
         },
       ]}
       title="Our Premium Services"
