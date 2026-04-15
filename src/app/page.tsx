@@ -8,7 +8,7 @@ import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import { Sparkles, User, Mail, Phone, MessageSquare } from "lucide-react";
+import { Sparkles, CheckCircle, Clock, ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -59,14 +59,14 @@ export default function LandingPage() {
 
   <div id="preview" data-section="preview">
       <ProductCardFour
-      title="Recent Cleaning Projects"
-      description="A quick look at the transformative results we deliver for carpets and upholstery in West Chester."
+      title="Transformative Results"
+      description="See how we rejuvenate your upholstery and carpets. Professional-grade cleaning that brings your home back to life."
       useInvertedBackground={false}
       animationType="slide-up"
       gridVariant="four-items-2x2-equal-grid"
       products={[
-        { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=3" },
-        { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=2" },
+        { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Professional Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=3" },
+        { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Professional Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=2" },
       ]}
       textboxLayout="split-actions"
       className="py-16"
@@ -80,12 +80,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Sofa & Sectional Cleaning", price: "Expert Care", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259227384-1001dc80.png" },
-        { id: "p2", name: "Carpet & Area Rug Cleaning", price: "Deep Restoration", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=3" },
-        { id: "p3", name: "Mattress Sanitization", price: "Hypo-Allergenic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=2" },
+        { id: "p1", name: "Premium Sofa Cleaning", price: "Deep Clean & Protect", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259227384-1001dc80.png" },
+        { id: "p2", name: "Total Carpet Care", price: "Restore & Sanitize", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=3" },
+        { id: "p3", name: "Mattress Hygiene", price: "Allergen Removal", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=2" },
       ]}
-      title="Our Premium Services"
-      description="We specialize in restoring your home's furniture and floors using professional-grade, eco-friendly technology."
+      title="Expert Residential Care"
+      description="From deep carpet restoration to fabric sanitization, we use eco-friendly technology to ensure a healthier, cleaner home environment for your family."
       className="py-16"
     />
   </div>
@@ -94,10 +94,10 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{ variant: "plain" }}
-      tag="Quote Request"
-      title="Get a Quote in Minutes"
-      description="Fill out the form below for a fast, professional assessment. We'll get back to you immediately."
-      buttonText="Send Request"
+      tag="Ready to Refresh?"
+      title="Book Your Professional Cleaning"
+      description="Your home deserves the best care. Secure your slot today—same-day service windows are limited!"
+      buttonText="Get Free Estimate"
       className="py-16"
     />
   </div>
@@ -105,12 +105,12 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterMedia
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=2"
-      logoText="Frankfurt Sofa & Carpet Cleaning"
+      logoText="Frankfurt Sofa & Carpet"
       columns={[
-        { title: "Contact Information", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }, { label: "Service Areas: West Chester & PA", href: "#" }] },
-        { title: "Navigation", items: [{ label: "Home", href: "#hero" }, { label: "Services", href: "#services" }, { label: "Contact", href: "#contact" }] },
+        { title: "Direct Support", items: [{ label: "Call: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }, { label: "Serving West Chester & PA", href: "#" }] },
+        { title: "Quick Links", items: [{ label: "Home", href: "#hero" }, { label: "Our Services", href: "#services" }, { label: "Book Now", href: "#contact" }] },
       ]}
-      copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. All rights reserved."
+      copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
     />
   </div>
       </ReactLenis>
