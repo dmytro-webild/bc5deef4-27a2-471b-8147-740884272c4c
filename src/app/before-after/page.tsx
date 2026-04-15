@@ -42,10 +42,10 @@ export default function BeforeAfterPage() {
             animationType="slide-up"
             gridVariant="four-items-2x2-equal-grid"
             products={[
-              { id: "sofa", name: "Sofa Restoration", price: "Deep Cleaned", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
-              { id: "carpet", name: "Carpet Renewal", price: "Stain Removed", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
-              { id: "mattress", name: "Mattress Cleaning", price: "Sanitized", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png" },
-              { id: "stairs", name: "Staircase Carpeting", price: "Restored", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png" },
+              { id: "sofa", name: "Sofa Restoration", price: "Deep Cleaned", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=4" },
+              { id: "carpet", name: "Carpet Renewal", price: "Stain Removed", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=4" },
+              { id: "mattress", name: "Mattress Cleaning", price: "Sanitized", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=3" },
+              { id: "stairs", name: "Staircase Carpeting", price: "Restored", variant: "Before & After", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=3" },
             ]}
             textboxLayout="split-description"
           />
@@ -53,7 +53,7 @@ export default function BeforeAfterPage() {
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=4"
             logoText="Frankfurt Sofa & Carpet Cleaning"
             columns={[
               { title: "Contact Us", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }] },
