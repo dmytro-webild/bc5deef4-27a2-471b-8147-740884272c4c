@@ -58,6 +58,7 @@ export default function OurWorkPage() {
             title="Ready for a Cleaner Home?"
             description="Book your professional cleaning today."
             useInvertedBackground={false}
+            background={{ variant: "plain" }}
           />
         </div>
 
@@ -68,6 +69,7 @@ export default function OurWorkPage() {
               { title: "Quick Links", items: [{ label: "Home", href: "/" }, { label: "Our Work", href: "/our-work" }, { label: "Services", href: "/services" }, { label: "Book Now", href: "/contact" }] },
             ]}
             bottomLeftText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
+            bottomRightText=""
           />
         </div>
       </ReactLenis>
