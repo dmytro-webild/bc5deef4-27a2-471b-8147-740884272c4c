@@ -3,12 +3,13 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import { Sparkles, CheckCircle, Clock, ShieldCheck } from "lucide-react";
+import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
+import { Sparkles, CheckCircle, Smartphone, Mail, Phone, Info } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -30,6 +31,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "hero" },
         { name: "Services", id: "services" },
+        { name: "Care Tips", id: "care" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="Frankfurt Sofa & Carpet"
@@ -90,6 +92,23 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="care" data-section="care">
+      <FeatureCardThree
+        title="Furniture Care Tips"
+        description="Simple steps to extend the lifespan of your upholstery between professional cleanings."
+        animationType="slide-up"
+        gridVariant="three-columns-all-equal-width"
+        textboxLayout="default"
+        useInvertedBackground={true}
+        features={[
+            { title: "Immediate Blotting", description: "Always blot spills immediately with a clean, dry cloth. Never rub the stain.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=2" },
+            { title: "Regular Vacuuming", description: "Vacuum your furniture weekly to remove loose dirt and dust that wears down fibers.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259227384-1001dc80.png" },
+            { title: "Avoid Direct Sunlight", description: "Keep furniture away from direct sun to prevent fading and material breakdown.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=2" }
+        ]}
+        className="py-16"
+      />
+  </div>
+
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={true}
@@ -103,15 +122,16 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=2"
-      logoText="Frankfurt Sofa & Carpet"
-      columns={[
-        { title: "Direct Support", items: [{ label: "Call: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }, { label: "Serving West Chester & PA", href: "#" }] },
-        { title: "Quick Links", items: [{ label: "Home", href: "#hero" }, { label: "Our Services", href: "#services" }, { label: "Book Now", href: "#contact" }] },
-      ]}
-      copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. Licensed & Insured."
-    />
+      <FooterSimple
+        columns={[
+            { title: "Connect", items: [{ label: "Facebook", href: "https://facebook.com/frankfurtcleaning" }, { label: "Instagram", href: "#" }] },
+            { title: "Contact Us", items: [{ label: "Call: (484) 845-4829", href: "tel:4848454829" }, { label: "SMS: (484) 845-4829", href: "sms:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }] },
+            { title: "Service Area", items: [{ label: "West Chester, PA" }, { label: "Serving Surrounding Counties" }] }
+        ]}
+        bottomLeftText="© 2025 Frankfurt Sofa & Carpet"
+        bottomRightText="Licensed & Insured"
+        className="py-12"
+      />
   </div>
       </ReactLenis>
     </ThemeProvider>
