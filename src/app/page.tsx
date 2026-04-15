@@ -49,8 +49,8 @@ export default function LandingPage() {
         { text: "See Our Work", href: "/our-work" },
       ]}
       mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png", imageAlt: "Clean living room interior" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259157995-3f6df573.png", imageAlt: "Sofa cleaning technician working" }
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=2", imageAlt: "Clean living room interior" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259157995-3f6df573.png?_wi=2", imageAlt: "Sofa cleaning technician working" }
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -67,8 +67,8 @@ export default function LandingPage() {
       animationType="slide-up"
       gridVariant="four-items-2x2-equal-grid"
       products={[
-        { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png" },
-        { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
+        { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=3" },
+        { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=2" },
       ]}
       buttons={[{ text: "View More Work", href: "/our-work" }, { text: "See Full Gallery", href: "/before-after" }]}
       textboxLayout="split-actions"
@@ -83,8 +83,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         { id: "p1", name: "Sofa & Sectional Cleaning", price: "Expert Care", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259227384-1001dc80.png" },
-        { id: "p2", name: "Carpet & Area Rug Cleaning", price: "Deep Restoration", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png" },
-        { id: "p3", name: "Mattress Sanitization", price: "Hypo-Allergenic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png" },
+        { id: "p2", name: "Carpet & Area Rug Cleaning", price: "Deep Restoration", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=3" },
+        { id: "p3", name: "Mattress Sanitization", price: "Hypo-Allergenic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/close-up-shot-of-professional-sofa-clean-1776259239680-6f98eb71.png?_wi=2" },
       ]}
       title="Our Premium Services"
       description="We specialize in restoring your home's furniture and floors using professional-grade, eco-friendly technology."
@@ -105,7 +105,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=2"
       logoText="Frankfurt Sofa & Carpet Cleaning"
       columns={[
         { title: "Contact Us", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }] },
