@@ -9,7 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import { Sparkles, CheckCircle, Smartphone, Mail, Phone, Info } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -29,7 +29,8 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        { name: "Home", id: "hero" },
+        { name: "Home", id: "/" },
+        { name: "Our Work", id: "/gallery" },
         { name: "Services", id: "services" },
         { name: "Care Tips", id: "care" },
         { name: "Contact", id: "contact" },
