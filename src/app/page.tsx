@@ -29,8 +29,6 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         { name: "Home", id: "hero" },
-        { name: "Our Work", id: "/our-work" },
-        { name: "Before & After", id: "/before-after" },
         { name: "Services", id: "services" },
         { name: "Contact", id: "contact" },
       ]}
@@ -46,7 +44,6 @@ export default function LandingPage() {
       tag="Same-Day Service Available"
       buttons={[
         { text: "Call (484) 845-4829", href: "tel:4848454829" },
-        { text: "See Our Work", href: "/our-work" },
       ]}
       mediaItems={[
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=2", imageAlt: "Clean living room interior" },
@@ -56,6 +53,7 @@ export default function LandingPage() {
       rating={5}
       ratingText="Rated 5/5 by local residents"
       tagIcon={Sparkles}
+      className="py-12 md:py-24"
     />
   </div>
 
@@ -70,8 +68,8 @@ export default function LandingPage() {
         { id: "p1", name: "Before & After Sofa", price: "Full Restoration", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259148092-8c8a71e0.png?_wi=3" },
         { id: "p2", name: "Carpet Deep Clean", price: "Stain Removal", variant: "Cleaning", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/carpet-cleaning-technician-working-with--1776259169495-a5b524bb.png?_wi=2" },
       ]}
-      buttons={[{ text: "View More Work", href: "/our-work" }, { text: "See Full Gallery", href: "/before-after" }]}
       textboxLayout="split-actions"
+      className="py-16"
     />
   </div>
 
@@ -88,7 +86,7 @@ export default function LandingPage() {
       ]}
       title="Our Premium Services"
       description="We specialize in restoring your home's furniture and floors using professional-grade, eco-friendly technology."
-      buttons={[{ text: "View Full Catalog", href: "/our-work" }]}
+      className="py-16"
     />
   </div>
 
@@ -100,6 +98,7 @@ export default function LandingPage() {
       title="Get a Free Quote in Minutes"
       description="Call, text, or email us today. Same-day appointments available for West Chester and nearby areas."
       buttonText="Send Request"
+      className="py-16"
     />
   </div>
 
@@ -108,9 +107,10 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNnjMXXku88iHFue8MKQx5vISJ/professional-interior-shot-of-a-clean-mo-1776259292528-eb0e2b92.png?_wi=2"
       logoText="Frankfurt Sofa & Carpet Cleaning"
       columns={[
-        { title: "Contact Us", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }] },
-        { title: "Navigation", items: [{ label: "Our Work", href: "/our-work" }, { label: "Before & After", href: "/before-after" }, { label: "Contact", href: "#contact" }] },
+        { title: "Contact Information", items: [{ label: "Phone: (484) 845-4829", href: "tel:4848454829" }, { label: "Email: info@frankfurtcleaning.com", href: "mailto:info@frankfurtcleaning.com" }, { label: "Service Areas: West Chester & PA", href: "#" }] },
+        { title: "Navigation", items: [{ label: "Home", href: "#hero" }, { label: "Services", href: "#services" }, { label: "Contact", href: "#contact" }] },
       ]}
+      copyrightText="© 2025 Frankfurt Sofa & Carpet Cleaning. All rights reserved."
     />
   </div>
       </ReactLenis>
