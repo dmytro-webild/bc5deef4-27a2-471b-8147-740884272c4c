@@ -8,7 +8,7 @@ import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import { Sparkles } from "lucide-react";
+import { Sparkles, User, Mail, Phone, MessageSquare } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -94,9 +94,9 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{ variant: "plain" }}
-      tag="Ready to clean?"
-      title="Get a Free Quote in Minutes"
-      description="Call, text, or email us today. Same-day appointments available for West Chester and nearby areas."
+      tag="Quote Request"
+      title="Get a Quote in Minutes"
+      description="Fill out the form below for a fast, professional assessment. We'll get back to you immediately."
       buttonText="Send Request"
       className="py-16"
     />
